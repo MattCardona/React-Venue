@@ -7,7 +7,6 @@ import SideDrawer from './SideDrawer.js';
 
 const styles = {
   appBarStyles: {
-    backgroundColor: '#2b2b2b',
     boxShadow: 'none',
     padding: '10px 0px'
   }
@@ -18,8 +17,24 @@ class Header extends React.Component {
   constructor(props){
     super(props);
     this.toggleDrawer = this.toggleDrawer.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
     this.state = {
-      drawerOpen: false
+      drawerOpen: false,
+      headerShow: false
+    }
+  }
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+  handleScroll() {
+    if(window.scrollY > 0){
+      this.setState((prevState) => ({
+        headerShow: true
+      }))
+    }else{
+      this.setState((prevState) => ({
+        headerShow: false
+      }))
     }
   }
   toggleDrawer(val) {
@@ -33,6 +48,7 @@ class Header extends React.Component {
       <div>
         <AppBar
           position="fixed"
+          style={{backgroundColor: this.state.headerShow ? '#2b2b2b' : 'transparent'}}
           className={classes.appBarStyles}
         >
           <Toolbar>
