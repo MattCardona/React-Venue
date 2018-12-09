@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel.js';
+import CountDown from './CountDown.js';
 
 const Featured = () => {
 
@@ -13,6 +14,7 @@ const Featured = () => {
         </div>
       </div>
 
+      <CountDown />
     </div>
   )
 };
