@@ -71,17 +71,18 @@ footer .footer_copyright {
 }
 
 /*====================
-        CARROUSEL
+        CAROUSEL
 ======================*/
 
 
-.carrousel_wrapper {
+.carousel_wrapper {
     height:700px;
     overflow: hidden;
 }
 
-.carrousel_image {
-
+.carousel_image {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
     background-size: cover !important;
 }
 
@@ -357,4 +358,19 @@ footer .footer_copyright {
     font-size: 29px;
     padding: 15px 20px;
     text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel_wrapper {
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .artist_name {
+        width: 300px;
+        height: 160px;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border: 2px solid white;
+    }
 }
