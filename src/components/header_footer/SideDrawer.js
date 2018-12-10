@@ -1,12 +1,22 @@
 import React from 'react';
 import { Drawer, List, ListItem } from '@material-ui/core';
+import { withStyles } from '@material-ui/core/styles';
+
+const styles = {
+  drawerStyles: {
+    backgroundColor: 'rgba(27, 51, 80, 0.8)'
+  }
+
+}
 
 const SideDrawer = (props) => {
+  const { classes } = props;
   return (
     <Drawer
       anchor="right"
       open={props.open}
       onClose={() => props.onClose()}
+      className={classes.drawerStyles}
     >
       <List component="nav">
         <ListItem button onClick={() => console.log("Featured clicked")}>
@@ -29,4 +39,4 @@ const SideDrawer = (props) => {
   )
 };
 
-export default SideDrawer;
+export default withStyles(styles)(SideDrawer);
