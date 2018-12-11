@@ -10,7 +10,7 @@ body {
 }
 
 .bck_black {
-    background: #3c3c3c;
+    background: #151313;
 }
 .bck_white {
     background: #ffffff;
@@ -392,5 +392,22 @@ footer .footer_copyright {
     .countdown_wrapper .countdown_tag {
         font-size: 15px;
         padding-left: 0px;
+    }
+    /*====================
+        VENUE NFO
+    ======================*/
+
+    .vn_wrapper {
+        display: block;
+        padding: 170px 0px;
+    }
+
+    .vn_item {
+        width:43%;
+    }
+
+    .vn_item:nth-child(2) {
+        width:43%;
+        margin-top: 80px;
     }
 }
