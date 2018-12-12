@@ -12,7 +12,8 @@ const ButtonUtil = (props) => {
       size="small"
       style={{
         background: bck,
-        color: color
+        color: color,
+        margin: "auto"
       }}
     >
       <img src={TicketIcon} alt="icon_button" className="iconImage"/>

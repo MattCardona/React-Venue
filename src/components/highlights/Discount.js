@@ -41,7 +41,7 @@ class Discount extends React.Component {
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut voluptatibus, architecto autem illum quibusdam debitis aspernatur temporibus? Amet dolorem adipisci numquam laborum! Laboriosam, odio. Veritatis molestiae sunt provident pariatur ut.
               </p>
-              <div>
+              <div className="discount_button">
                 <ButtonUtil
                   text="Purchase tickets"
                   bck="#ffbc00"
