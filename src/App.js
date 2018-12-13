@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
+
 import Header from './components/header_footer/Header.js';
 import Featured from './components/featured/Featured.js';
 import VenueInfo from './components/venueInfo/index.js';
 import Highlights from './components/highlights/index.js';
+import Pricing from './components/pricing/index.js';
 
 class App extends Component {
   render() {
@@ -13,6 +15,7 @@ class App extends Component {
         <Featured />
         <VenueInfo />
         <Highlights />
+        <Pricing />
       </div>
     );
   }
