@@ -20,10 +20,10 @@ class CountDown extends React.Component {
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    const year = +moment().format('YYYY') + 1;
+    const year = +(new moment().format('YYYY')) + 1;
     const month = getRandomIntInclusive(1, 12)
     const day = getRandomIntInclusive(1, 30);
-    const end = new moment(`${year.toString()}-${month.toString()}-${day.toString()}`);
+    const end = new moment(`${year.toString()}-${month.toString()}-${day.toString()}`, "YYYY MM DD");
     this.setState(() => ({
       venueDate: end
     }))

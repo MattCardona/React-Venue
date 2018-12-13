@@ -2,7 +2,6 @@ import React from 'react';
 import { Drawer, List, ListItem } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import { scroller } from 'react-scroll';
-import { element } from 'prop-types';
 
 const styles = {
   drawerStyles: {
