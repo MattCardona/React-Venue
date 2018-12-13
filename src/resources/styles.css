@@ -471,5 +471,11 @@ footer .footer_copyright {
         box-sizing: border-box;
         width: 100%;
     }
+    /*====================
+        FOOTER
+    ======================*/
 
+    footer {
+        padding:20px 0px;
+    }
 }
