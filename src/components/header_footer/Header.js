@@ -48,7 +48,7 @@ class Header extends React.Component {
       <div>
         <AppBar
           position="fixed"
-          style={{backgroundColor: this.state.headerShow ? '#2b2b2b' : 'transparent'}}
+          style={{backgroundColor: this.state.headerShow ? 'rgb(44, 65, 91)' : 'transparent'}}
           className={classes.appBarStyles}
         >
           <Toolbar>
