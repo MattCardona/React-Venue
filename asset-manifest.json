@@ -1,7 +1,7 @@
 {
   "main.css": "/React-Venue/static/css/main.8ba34f71.chunk.css",
-  "main.js": "/React-Venue/static/js/main.e01ad131.chunk.js",
-  "main.js.map": "/React-Venue/static/js/main.e01ad131.chunk.js.map",
+  "main.js": "/React-Venue/static/js/main.b5444ab0.chunk.js",
+  "main.js.map": "/React-Venue/static/js/main.b5444ab0.chunk.js.map",
   "static/js/1.3e245268.chunk.js": "/React-Venue/static/js/1.3e245268.chunk.js",
   "static/js/1.3e245268.chunk.js.map": "/React-Venue/static/js/1.3e245268.chunk.js.map",
   "runtime~main.js": "/React-Venue/static/js/runtime~main.79bc31a6.js",
@@ -11,6 +11,6 @@
   "static/media/slide_three.jpg": "/React-Venue/static/media/slide_three.9aa09a50.jpg",
   "static/media/slide_two.jpg": "/React-Venue/static/media/slide_two.3a3ffd36.jpg",
   "index.html": "/React-Venue/index.html",
-  "precache-manifest.a09006b9cf181b1ab891f90a612a9630.js": "/React-Venue/precache-manifest.a09006b9cf181b1ab891f90a612a9630.js",
+  "precache-manifest.c71cfffee18d2fe2037379acfe4a7f09.js": "/React-Venue/precache-manifest.c71cfffee18d2fe2037379acfe4a7f09.js",
   "service-worker.js": "/React-Venue/service-worker.js"
 }
