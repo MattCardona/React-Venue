@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/React-Venue/static/css/main.8ba34f71.chunk.css"
   },
   {
-    "revision": "8c5a6a30ff1cf06dba31a3d3bf699e5f",
+    "revision": "700400e515e7bc7a0c67f5fb59f1ebf5",
     "url": "/React-Venue/index.html"
   }
 ];
