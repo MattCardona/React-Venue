@@ -26,6 +26,9 @@ class Header extends React.Component {
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
   }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll, false);
+  }
   handleScroll() {
     if(window.scrollY > 0){
       this.setState((prevState) => ({
